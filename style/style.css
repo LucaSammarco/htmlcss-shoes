@@ -2,34 +2,39 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: "Carter One", system-ui;
+    font-weight: 400;
+    font-style: normal;
 }
 
+body { 
+    max-width: 1200px;
+}
+
+
 header {
-    width: 100%;
+    width: 1200px;
     /* background-color: aqua; */
     position: fixed;
-     position: fixed;
-    top: 0;
     right: 0;
     left: 0;
-    z-index: 0;
+    top: 3rem;
+    z-index: 1;
+    margin-top: 1;
 }
+
 
 
 .navigation-buttons nav > ul {
-   
     list-style: none;
     display: flex;
     justify-content: flex-end;
-    /* position: fixed;
-    top: 0;
-    right: 0; */
-
 }
 
 .navigation-buttons nav > ul a{
     text-decoration: none;
-    color: #000;
+    color: #eaeaea;
+    padding: 3rem;
     
 }
 
@@ -37,55 +42,46 @@ header {
     justify-content: flex-end;
     }
 
-.shoe1 {
+.shoe {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    text-align: center;
+}
+
+.bggred {
     background-color: red;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    height: 100vh;
-    
 }
 
-
-.shoe2 {
+.bggreen {
     background-color: green;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    flex-direction: column;
 }
 
-.shoe3 {
-    background-color: green;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    flex-direction: column;
+.bgyellow {
+    background-color: yellow;
 }
 
-.shoe1 img, .shoe2 img, .shoe3 img {
-    width: 60%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.shoe {
+    position: relative;
 }
 
-.shoe1 div, .shoe2 div, .shoe3 div {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
+.shoe img {
+    width: 80%;
+    margin-bottom: 20px;
+}
+
+.shoe h1 {
+    font-size: 4rem;
+    color: #fff;
+    margin: 1rem 0 5rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: yellow;
 }
 
 
-body { 
-    max-width: 1200px;
-}
 
-footer { 
-    background-color: azure;
-    
-}
+.shoe .green-text {
+    color: green;}
