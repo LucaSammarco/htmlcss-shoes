@@ -8,12 +8,12 @@
 }
 
 body { 
-    max-width: 1200px;
+    /* max-width: 1200px; */
 }
 
 
 header {
-    width: 1200px;
+    width: 100%;
     /* background-color: aqua; */
     position: fixed;
     right: 0;
@@ -29,12 +29,24 @@ header {
     list-style: none;
     display: flex;
     justify-content: flex-end;
+    padding-right: 20px;
 }
+.navigation-buttons nav > ul li{
+    padding-left: 20px;
+}
+
 
 .navigation-buttons nav > ul a{
     text-decoration: none;
     color: #eaeaea;
-    padding: 3rem;
+    padding: 1.2rem;
+    background-color: #333;
+    border-radius: 50%;  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    width: 50px;
     
 }
 
