@@ -1,0 +1,91 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    width: 100%;
+    /* background-color: aqua; */
+    position: fixed;
+     position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 0;
+}
+
+
+.navigation-buttons nav > ul {
+   
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    /* position: fixed;
+    top: 0;
+    right: 0; */
+
+}
+
+.navigation-buttons nav > ul a{
+    text-decoration: none;
+    color: #000;
+    
+}
+
+.flex-end {
+    justify-content: flex-end;
+    }
+
+.shoe1 {
+    background-color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    
+}
+
+
+.shoe2 {
+    background-color: green;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+}
+
+.shoe3 {
+    background-color: green;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+}
+
+.shoe1 img, .shoe2 img, .shoe3 img {
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.shoe1 div, .shoe2 div, .shoe3 div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+
+body { 
+    max-width: 1200px;
+}
+
+footer { 
+    background-color: azure;
+    
+}
