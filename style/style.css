@@ -71,6 +71,10 @@ header {
     background-color: green;
 }
 
+/* div.bla {
+    position: relative;
+} */
+
 .bgyellow {
     background-color: yellow;
 }
@@ -80,17 +84,26 @@ header {
 }
 
 .shoe img {
-    width: 80%;
-    margin-bottom: 20px;
+    width: 50%;
+    /* margin-bottom: 20px;     */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 .shoe h1 {
-    font-size: 4rem;
-    color: #fff;
-    margin: 1rem 0 5rem;
+    position: absolute;
+    font-size: 3.1vw;
+        /* margin: 1rem 0 5rem; */
     font-weight: bold;
     text-transform: uppercase;
     color: yellow;
+    top: 90%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    text-justify: inter-cluster;
 }
 
 
